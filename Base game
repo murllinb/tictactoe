@@ -87,7 +87,7 @@ def main():
             if check_winner(board, player):
                 print_board(board)
                 scores[player] += 1
-                print(f"  🎉 Player {player} wins!\n")
+                print(f"  Player {player} wins!\n")
                 print(f"  Scores  →  X: {scores['X']}  |  O: {scores['O']}  |  Draws: {scores['Draws']}")
                 break
 
